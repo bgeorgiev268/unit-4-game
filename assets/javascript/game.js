@@ -2,15 +2,26 @@
 //done with html and css
 
 // The player will be shown a random number at the start of the game.
-Math.floor(Math.random())
+//Math.floor(Math.random())
+
+
 
 // When the player clicks on a crystal, it will add a specific amount of points to the player's total score.
 //on click function for each crystal 
-// variables
 function newGame()
 function loss()
 function win()
 function reset()
+
+// variables
+var wins = 0;
+var losses = 0;
+var score = 0;
+var randomNumber = [];
+var blue = [];
+var green = [];
+var red = [];
+var yellow = [];
 
 // Your game will hide this amount until the player clicks a crystal.
 // When they do click one, update the player's score counter.
