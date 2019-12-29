@@ -18,6 +18,7 @@ CrystalsCollector Game
   - When the player clicks on a crystal, it will add a specific amount of points to the player's total score.
 
       ** Your game will hide this amount until the player clicks a crystal.
+      
       ** When they do click one, update the player's score counter.
 
 
