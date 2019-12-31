@@ -3,12 +3,12 @@ body{
 	background-image: url("../images/background.png")
 }
 div{
-	background-color: white;
+	/* background-color: white; */
 	margin: 10px;
-	width: 25%
+	/* width: 25% */
 }
 div{
-	border: solid 2px antiquewhite;
+	/* border: solid 2px antiquewhite; */
 	padding: 10px;
 }
 h1, h3, span{
@@ -27,39 +27,45 @@ ul {
 }
 /* Specfic Elements*/
 div.header, div.gems{
-	background-color: #e0e0eb;
+	/* background-color: #e0e0eb; */
 }
 div.header, div.instructions{
-	width: 50%;
+	/* width: 50%; */
+	background-color: white;
 }
 /* Classes */
-.numberToMatch, .winsAndLosses{
-	float: left;
-	width: 15%;
-	height: 60px;
+.numberToMatch, .winsAndLosses, .totalScore{
+	background-color: white;
+	/* float: left; */
+	/* width: 25%; */
+	/* height: 150px; */
 }
 .userTotal{
-	width: 15%;
-	height: 60px;
+	/* width: 15%; */
+	/* height: 60px; */
 }
 .gems{
 	clear: both;
+	margin-top:20px;
+	/* background-color: white; */
+	/* width: 33%; */
 }
 .gemImage{
-	height: 60px;
+	height: 180px;
+	width: 180px;
 	margin: 10px;
 }
 /* IDs */
-#blue{
+.crystal-choices .blue{
 	color: #3092c7;
 }
-#green{
+.crystal-choices .green{
 	color: #00aa59;
 }
-#red{
+.crystal-choices .red{
 	color: #ec4b5f;
 }
-#yellow{
+.crystal-choices .yellow{
 	color: #ffc225;
 }
 
