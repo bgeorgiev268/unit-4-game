@@ -50,23 +50,30 @@ div.header, div.instructions{
 	/* background-color: white; */
 	/* width: 33%; */
 }
-.gemImage{
+
+	
+/* IDs */
+.gems img 	{
 	height: 180px;
 	width: 180px;
 	margin: 10px;
+
 }
-/* IDs */
-.crystal-choices .blue{
+.gems .blue{
 	color: #3092c7;
+	cursor: pointer;
 }
-.crystal-choices .green{
+.gems .green{
 	color: #00aa59;
+	cursor: pointer;
 }
-.crystal-choices .red{
+.gems .red{
 	color: #ec4b5f;
+	cursor: pointer;
 }
-.crystal-choices .yellow{
+.gems .yellow{
 	color: #ffc225;
+	cursor: pointer;
 }
 
 
