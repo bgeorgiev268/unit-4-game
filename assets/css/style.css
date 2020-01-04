@@ -3,12 +3,7 @@ body{
 	background-image: url("../images/background.png")
 }
 div{
-	/* background-color: white; */
 	margin: 10px;
-	/* width: 25% */
-}
-div{
-	/* border: solid 2px antiquewhite; */
 	padding: 10px;
 }
 h1, h3, span{
@@ -27,46 +22,22 @@ ul {
 }
 /* Specfic Elements*/
 div.header, div.gems{
-	/* background-color: #e0e0eb; */
 }
 div.header, div.instructions{
-	/* width: 50%; */
 	background-color: white;
 }
 /* Classes */
 .numberToMatch, .winsAndLosses, .totalScore{
 	background-color: white;
-	/* float: left; */
-	/* width: 25%; */
-	/* height: 150px; */
 }
 .userTotal{
-	/* width: 15%; */
-	/* height: 60px; */
 }
 .gems{
 	clear: both;
 	margin-top:20px;
-	/* background-color: white; */
-	/* width: 33%; */
 }
 .gemImage{
 	height: 180px;
 	width: 180px;
 	margin: 10px;
 }
-/* IDs */
-.crystal-choices .blue{
-	color: #3092c7;
-}
-.crystal-choices .green{
-	color: #00aa59;
-}
-.crystal-choices .red{
-	color: #ec4b5f;
-}
-.crystal-choices .yellow{
-	color: #ffc225;
-}
-
-

@@ -8,10 +8,6 @@
 
 // When the player clicks on a crystal, it will add a specific amount of points to the player's total score.
 //on click function for each crystal 
-// function newGame()
-// function loss()
-// function win()
-// function reset()
 
 // variables
 var wins = 0;
